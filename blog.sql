@@ -10,9 +10,6 @@ CREATE TABLE users (
 INSERT INTO users (username, password) 
 VALUES ('admin', '$2y$10$abcdefghijklmnopqrstuv');
 
--- usuario admin por defecto
--- INSERT INTO users (username, password) 
--- VALUES ('admin', PASSWORD('123456')); -- o usar password_hash en PHP
 
 CREATE TABLE categories (
     id INT AUTO_INCREMENT PRIMARY KEY,
