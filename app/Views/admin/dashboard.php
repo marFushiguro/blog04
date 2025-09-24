@@ -46,6 +46,11 @@
        class="btn-premium text-white px-6 py-2 rounded-full font-semibold shadow-md hover:shadow-xl transition-all">
        <i class="fa fa-plus"></i> Nuevo Post
     </a>
+    <a href="<?= base_url('admin/categories/create') ?>" 
+       class="btn-premium text-white px-6 py-2 rounded-full font-semibold shadow-md hover:shadow-xl transition-all">
+       <i class="fa fa-plus"></i> Crear Categoria 
+    </a>
+        
   </div>
 </header>
 

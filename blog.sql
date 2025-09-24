@@ -13,7 +13,8 @@ VALUES ('admin', '$2y$10$abcdefghijklmnopqrstuv');
 
 CREATE TABLE categories (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL
+    name VARCHAR(100) NOT NULL,
+    created_at DATETIME NOT NULL
 );
 
 INSERT INTO categories (name) VALUES ('Moda'), ('Naturaleza'), ('Tecnología'), ('Comida'), ('Deportes');
